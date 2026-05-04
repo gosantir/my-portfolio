@@ -20,8 +20,8 @@ profiles:
     url: https://github.com/gosantir
 ---
 
-Ingeniero de Software con 9 años de experiencia en JavaScript (Node.js, React, Angular), especializado en la construcción de aplicaciones web escalables y sistemas en producción.
+**Software Engineer with 9 years of experience** in JavaScript (Node.js, React, Angular), specializing in building scalable web applications and production-grade systems.
 
-Experiencia en arquitectura de software y soluciones en AWS, participando en el desarrollo end-to-end de productos, desde la definición técnica hasta su despliegue y operación en producción.
+Experienced in software architecture and AWS-based solutions, contributing to end-to-end product development from technical definition to deployment and production operations.
 
-Enfocado actualmente en la integración de billeteras digitales para optimizar la experiencia de pagos en línea, colaborando con múltiples bancos aliados en Paze.
+Currently focused on integrating digital wallets to optimize online payment experiences, collaborating with multiple banking partners at Paze.

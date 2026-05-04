@@ -24,8 +24,8 @@
     - JavaScript Library
     - UI
 - id: test-quality
-  name: Testing - Jest - React Testing Library - Playwright
-  level: 4
+  name: Testing - Jest - Playwright
+  level: 5
   order: 4
   keywords:
     - Web Development
