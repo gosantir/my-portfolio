@@ -27,21 +27,23 @@
   url: https://www.globant.com/
   startDate: "2021-12-01"
   endDate: "2022-11-30"
-  summary: Worked on the development of an e-commerce platform for cruise vacation plans for Royal Caribbean, focused on driving sales through scalable and user-friendly web applications. Leveraged Angular, TypeScript, HTML/CSS, GraphQL, REST APIs, Redux, and testing frameworks to build reusable components, integrate services, and optimize performance within agile environments.
+  summary: Worked on the development of an e-commerce platform for cruise vacation plans for Royal Caribbean, focused on driving sales through scalable and user-friendly web applications. Leveraged Angular, TypeScript, GraphQL, REST APIs, and Redux to build reusable components, integrate services, and optimize performance in agile environments.
   highlights:
     - Developed reusable components and features, improving development efficiency and consistency across the application.
-    - Integrated frontend applications with GraphQL and REST APIs, enabling seamless data flow and dynamic user experiences.
+    - Integrated frontend components with GraphQL and REST APIs, enabling seamless data flow and dynamic user experiences.
     - Led the migration to newer versions of GraphQL and related dependencies, improving performance, maintainability, and long-term scalability.
     - Led a technical refactor of the Redux store, optimizing data access patterns and improving application performance.
-    - Implemented a scalable multi-language (i18n) solution, enabling dynamic localization and expanding the platform’s reach to international users.
-    - Implemented unit and integration testing strategies, improving code reliability and reducing defects.
+    - Implemented a scalable multi-language (i18n) solution, enabling dynamic localization and expanding the platform’s reach to international markets.
+    - Implemented unit and integration testing strategies, strengthening code reliability and reducing production defects.
 - name: Digital Ware
   id: dw
   position: Angular Developer
   url: https://www.digitalware.com.co/
   startDate: "2017-04-01"
   endDate: "2021-12-30"
-  summary: Integrated components and functionalities for the implementation of BPM solutions (Ophelia BPM) across multiple verticals, ensuring convergence into a unified technological platform. Developed intuitive and user-friendly web interfaces using Angular, TypeScript, and HTML/CSS, improving usability and consistency across applications.
+  summary: Integrated components and functionalities for BPM solutions (Ophelia BPM) across multiple verticals, ensuring convergence into a unified technological platform. Developed intuitive and user-friendly web interfaces using Angular, TypeScript, and HTML/CSS, improving usability and consistency across applications.
   highlights:
-    - I effectively integrated components and functionalities for the implementation of BPM tools (Ophelia BPM) and their different verticals, thus ensuring that all converge into a single technological solution.
-    - I used Angular, TypeScript, and HTML/CSS as a stack for the integration of intuitive and easy-to-use web interfaces.
+    - Integrated components and features across multiple BPM verticals, designing a unified platform architecture with multi-tenant capabilities to support multiple clients within a single codebase.
+    - Built dynamic and user-friendly web interfaces using Angular, TypeScript, and HTML/CSS, enhancing usability and consistency.
+    - Collaborated with cross-functional teams to deliver scalable solutions aligned with business requirements.
+    - Contributed to improving maintainability through modular and component-based architecture.

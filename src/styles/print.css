@@ -21,6 +21,8 @@
 
   main {
     padding-inline: 0;
+    padding-bottom: 0;
+    border: 1px solid green;
   }
 
   .resume-page {
