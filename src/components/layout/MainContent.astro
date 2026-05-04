@@ -4,10 +4,15 @@ import MailIcon from "../../icons/MailIcon.astro";
 import LocationIcon from "../../icons/LocationIcon.astro";
 import Work from "@components/Work.astro";
 import Education from "@components/Education.astro";
-import { getEntry } from "astro:content";
+import { getCollection } from "astro:content";
+import LinkedinIcon from "../../icons/LinkedinIcon.astro";
 
-const basics = await getEntry("basics", "basics");
+const [basics] = await getCollection("basics");
 const profileInfo = basics!.data;
+
+const linkedin = basics?.data.profiles.find(
+  (item) => item.network === "LinkedIn",
+);
 ---
 
 <main class="flex-1 pl-6 pr-5 pt-8 pb-5 relative">
@@ -42,6 +47,12 @@ const profileInfo = basics!.data;
           class="flex-1 border-b border-b-[#e6e7e8]"
           href={`mailto:${profileInfo.email}`}>{profileInfo.email}</a
         >
+      </div>
+      <div class="flex gap-2 items-center">
+        <LinkedinIcon />
+        <a class="flex-1 border-b border-b-[#e6e7e8]" href={linkedin?.url}>
+          linkedin.com/in/{linkedin?.username}
+        </a>
       </div>
     </div>
   </header>

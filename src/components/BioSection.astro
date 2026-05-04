@@ -1,17 +1,18 @@
 ---
-import { getEntry } from "astro:content";
 import Skills from "./Skills.astro";
+import { render } from "astro:content";
+import { getCollection } from "astro:content";
 
-const basics = await getEntry("basics", "basics");
-
+const [basics] = await getCollection("basics");
 const linkedin = basics?.data.profiles.find(
   (item) => item.network === "LinkedIn",
 );
+const { Content } = await render(basics);
 ---
 
-<section class="px-8 py-4">
-  <h2 class="font-bebas-neue text-lg text-[#e6e7e8]">ABOUT ME</h2>
-  <p class="text-sm font-light mt-4.5 text-pretty">{basics?.data.summary}</p>
+<section class="px-8 py-4 about-me-section">
+  <h2 class="font-bebas-neue text-lg text-[#e6e7e8]">ABOUT ME 👋</h2>
+  <Content />
 </section>
 <hr class="h-0.5 mx-8 bg-[#808183] border-0" />
 
@@ -20,9 +21,18 @@ const linkedin = basics?.data.profiles.find(
 <hr class="h-px mx-8 bg-[#808183] border-0" />
 <section class="px-8 py-4">
   <h2 class="font-bebas-neue text-lg text-[#e6e7e8]">LinkedIn</h2>
-  <!-- <h3 class="text-[12px] font-semibold mt-3">{linkedin?.network}:</h3> -->
+  <h3 class="text-[12px] font-semibold mt-3">{linkedin?.network}:</h3>
 
   <a href={linkedin?.url} class="break-all text-[12px] font-light underline">
     {linkedin?.url}
   </a>
 </section>
+
+<style is:global>
+  @reference "../styles/global.css";
+  .about-me-section {
+    p {
+      @apply text-sm font-light mt-1.5 text-pretty;
+    }
+  }
+</style>

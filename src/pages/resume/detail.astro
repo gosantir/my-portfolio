@@ -6,8 +6,9 @@ import { Image } from "astro:assets";
 
 import profileImage from "@images/santi.jpeg";
 import ResumeLayout from "@layouts/ResumeLayout.astro";
+import { getCollection } from "astro:content";
 
-const basics = await getEntry("basics", "basics")!;
+const [basics] = await getCollection("basics")!;
 
 const { data } = basics;
 ---

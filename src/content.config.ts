@@ -2,20 +2,21 @@
 import { defineCollection } from 'astro:content';
 
 // 2. Import loader(s)
-import { file } from 'astro/loaders';
+import { file, glob } from 'astro/loaders';
 
 // 3. Import Zod
 import { z } from 'astro/zod';
 
 // 4. Define a `loader` and `schema` for each collection
+
 const basics = defineCollection({
-  loader: file("src/content/cv/basics.yml"),
+  loader: glob({ pattern: "src/content/cv/basics.md" }),
   schema: z.object({
     name: z.string(),
     phone: z.string(),
     email: z.string(),
     url: z.string(),
-    summary: z.string(),
+    // summary: z.string(),
     label: z.string(),
     location: z.object({
       address: z.string(),

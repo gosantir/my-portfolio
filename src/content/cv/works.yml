@@ -3,41 +3,24 @@
   position: Software Development Engineer
   url: https://cbtw.tech/
   startDate: "2025-03-15"
-  summary:
-    Collaborated with a leading U.S. financial services company providing digital
-    wallet solutions for multiple banks, developing and maintaining high-performance,
-    accessible user interfaces using React, TypeScript, and Redux. Worked closely
-    with backend and design teams to translate business and functional requirements
-    into scalable, reusable components within a modern cloud-based architecture. Contributed
-    to the analysis, design, and implementation of new features and enhancements,
-    while ensuring code quality through comprehensive unit and functional testing
-    with Jest. Maintained clear technical documentation, identified performance and
-    usability issues, and delivered continuous improvements to the application in
-    an AWS-driven environment.
+  summary: Digital payments platform built with React, focused on simplifying transactions between users and partner banks in a secure and fast way, using email or phone number along with security codes.
   highlights:
-    - Collaborated with a leading U.S. financial services company, clarifying requirements and developing high-performance, accessible user interfaces using React, TypeScript, and Redux while adhering to quality standards.
-    - Maintained clear technical documentation, identified performance and usability issues, and delivered continuous improvements to the application in an AWS-driven environment, ensuring operational efficiency.
+    - Contributed to system architecture and solution design to ensure scalability and high performance in production environments.
+    - Optimized state management, achieving a 10–20% reduction in load times and significantly improving user experience.
+    - Implemented automated testing with Jest, reducing production errors by 15% and improving overall delivery quality.
+    - Supported the migration to AWS CloudFront, improving latency, initial load times, and global content delivery performance.
 - name: Huge
   id: huge
   position: Senior Web Developer
   url: https://www.hugeinc.com/
   startDate: "2022-11-02"
   endDate: "2025-02-10"
-  summary:
-    As a Senior Software Developer, my main role was to lead and participate
-    in the design, development, and implementation of high-quality user interfaces
-    for the Android Enterprise website ensuring scalability, maintenance, and updates.
-    This involves working closely with designers and development teams to turn interface
-    designs into interactive and engaging experiences for users. Using technologies
-    like HTML, CSS, and JavaScript, I was responsible for implementing interfaces
-    that are intuitive, responsive, and compatible with a variety of devices and browsers.
-    In addition, I am committed to optimizing interface performance to ensure fast
-    loading times and a smooth user experience.
+  summary: Web platforms support and enhancement for Android and Google Enterprise, collaborating within cross-functional engineering teams to deliver high-impact marketing solutions and improve user experience.
   highlights:
-    - Led and participated in the design, development, and implementation of high-quality user interfaces for the Android Enterprise website, ensuring prioritization of scalability, maintenance, and updates while adhering to quality standards.
-    - Implemented intuitive, responsive, and compatible interfaces using technologies like HTML, CSS, and JavaScript, supporting change management processes.
-    - Implemented accessibility improvements for visually impaired users on the Android.com page, resulting in a 5% increase in usability demonstrating operational efficiency.
-    - Contributed to the professional growth of the team by providing technical guidance, conducting code reviews, and fostering a culture of continuous learning with a focus on documentation.
+    - Implemented A/B testing strategies, increasing user engagement by 15% and improving overall performance by 10%.
+    - Enhanced accessibility for visually impaired users on Android.com, significantly improving usability and inclusivity.
+    - Led the development of a SPA benefits redemption tool using Python microservices and CMS integration, increasing user engagement by 30%.
+    - Mentored team members through code reviews and technical guidance, fostering a culture of continuous improvement.
 - name: Globant
   id: globant
   position: Web UI Developer

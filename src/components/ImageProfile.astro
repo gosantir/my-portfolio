@@ -4,9 +4,9 @@ import { Image } from "astro:assets";
 // import profileImage from "@images/santi.jpeg";
 // import profileImage from "@images/santi-formal.jpeg";
 import profileImage from "@images/santi-gpt.png";
-import { getEntry } from "astro:content";
+import { getCollection } from "astro:content";
 
-const basics = await getEntry("basics", "basics");
+const [basics] = await getCollection("basics");
 ---
 
 <header class="flex justify-center items-center pt-8">
