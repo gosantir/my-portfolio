@@ -15,7 +15,7 @@
   url: https://www.hugeinc.com/
   startDate: "2022-11-02"
   endDate: "2025-02-10"
-  summary: Web platforms support and enhancement for Android and Google Enterprise, collaborating within cross-functional engineering teams to deliver high-impact marketing solutions and improve user experience.
+  summary: Web platforms support and enhancement for Android and Google Enterprise webpages, collaborating within cross-functional engineering teams to deliver high-impact marketing solutions and improve user experience.
   highlights:
     - Implemented A/B testing strategies, increasing user engagement by 15% and improving overall performance by 10%.
     - Enhanced accessibility for visually impaired users on Android.com, significantly improving usability and inclusivity.
@@ -23,28 +23,18 @@
     - Mentored team members through code reviews and technical guidance, fostering a culture of continuous improvement.
 - name: Globant
   id: globant
-  position: Web UI Developer
+  position: Semi-Senior Software Engineer
   url: https://www.globant.com/
   startDate: "2021-12-01"
   endDate: "2022-11-30"
-  summary:
-    As a semi-senior developer, my primary responsibilities include contributing
-    to the design, development, and enhancement of reusable components and functionalities
-    for web applications. I leverage Angular, TypeScript, and HTML/CSS to build dynamic
-    and scalable user interfaces while efficiently integrating services through GraphQL
-    and RESTful APIs. My role involves optimizing application performance using advanced
-    techniques and implementing unit and integration tests to uphold code quality.
-    I collaborate closely with management teams and stakeholders to analyze business
-    requirements and translate them into reusable, effective technical solutions.
-    I focus on adopting agile methodologies to enable fast, iterative deliveries and
-    emphasize best practices in software engineering to ensure the security, scalability,
-    and long-term maintainability of the products I develop.
+  summary: Worked on the development of an e-commerce platform for cruise vacation plans for Royal Caribbean, focused on driving sales through scalable and user-friendly web applications. Leveraged Angular, TypeScript, HTML/CSS, GraphQL, REST APIs, Redux, and testing frameworks to build reusable components, integrate services, and optimize performance within agile environments.
   highlights:
-    - As a semi-senior developer, my primary responsibilities include contributing to the design, development, and enhancement of reusable components and functionalities for web applications.
-    - I leverage Angular, TypeScript, and HTML/CSS to build dynamic and scalable user interfaces while efficiently integrating services through GraphQL and RESTful APIs.
-    - My role involves optimizing application performance using advanced techniques and implementing unit and integration tests to uphold code quality.
-    - I collaborate closely with management teams and stakeholders to analyze business requirements and translate them into reusable, effective technical solutions.
-    - I focus on adopting agile methodologies to enable fast, iterative deliveries and emphasize best practices in software engineering to ensure the security, scalability, and long-term maintainability of the products I develop.
+    - Developed reusable components and features, improving development efficiency and consistency across the application.
+    - Integrated frontend applications with GraphQL and REST APIs, enabling seamless data flow and dynamic user experiences.
+    - Led the migration to newer versions of GraphQL and related dependencies, improving performance, maintainability, and long-term scalability.
+    - Led a technical refactor of the Redux store, optimizing data access patterns and improving application performance.
+    - Implemented a scalable multi-language (i18n) solution, enabling dynamic localization and expanding the platform’s reach to international users.
+    - Implemented unit and integration testing strategies, improving code reliability and reducing defects.
 - name: Digital Ware
   id: dw
   position: Angular Developer
